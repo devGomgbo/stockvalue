@@ -1,0 +1,2 @@
+bundles:
+    - Security\StockValueBundle\SecurityStockValueBundle

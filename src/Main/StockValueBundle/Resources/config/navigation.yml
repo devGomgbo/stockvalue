@@ -1,0 +1,24 @@
+oro_menu_config:
+    items:
+        main_tab_fichier:
+            label: Fichier
+            uri:   '#'
+            extras:
+                position: 300
+        main_tab_societe:
+            label: Société
+            route: main_fichier_societe
+        main_tab_fonction:
+            label: Fonction
+            route: main_fichier_fonction
+    tree:
+        application_menu:
+            children:
+                main_tab_fichier:
+                    children:
+                        main_tab_societe: ~
+                        main_tab_fonction: ~
+
+oro_titles:
+    main_fichier_societe: Fichier => Société
+    main_fichier_fonction: Fichier => Fonction

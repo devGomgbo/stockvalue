@@ -1,0 +1,3 @@
+main_stock_value_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: mainStockValueBundle:Default:index }

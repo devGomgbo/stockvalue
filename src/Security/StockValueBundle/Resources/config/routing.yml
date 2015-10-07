@@ -1,0 +1,3 @@
+security_stock_value_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: SecurityStockValueBundle:Default:index }

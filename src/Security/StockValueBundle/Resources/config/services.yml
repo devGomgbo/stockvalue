@@ -1,0 +1,7 @@
+parameters:
+#    security_stock_value.example.class: Security\StockValueBundle\Example
+
+services:
+#    security_stock_value.example:
+#        class: %security_stock_value.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

@@ -1,0 +1,25 @@
+parameters:
+    database_driver: pdo_mysql
+    database_host: 127.0.0.1
+    database_port: null
+    database_name: bap_standard
+    database_user: root
+    database_password: null
+    database_drop_full: false
+    mailer_transport: smtp
+    mailer_host: smtp.gmail.com
+    mailer_port: null
+    mailer_encryption: ssl
+    mailer_user: gotaindien@gmail.com
+    mailer_password: Urnalone0413
+    websocket_bind_address: 0.0.0.0
+    websocket_bind_port: 8080
+    websocket_frontend_host: '*'
+    websocket_frontend_port: 8080
+    websocket_backend_host: '*'
+    websocket_backend_port: 8080
+    session_handler: session.handler.native_file
+    locale: fr
+    secret: 7b3d671f1263efb25cc1137f155548f9
+    installed: '2015-10-03T18:37:32+02:00'
+    assets_version: null
